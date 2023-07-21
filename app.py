@@ -4,6 +4,8 @@ from flask import Flask, jsonify
 # Configuración de Flask
 app = Flask(__name__)
 
+#nuevo
+
 # Implementación del patrón Singleton para la conexión a Firebase
 class FirebaseSingleton:
     _instance = None
